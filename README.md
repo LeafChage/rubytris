@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Rubytris.tetris()
+      $ Rubytris.tetris()
 
 ## Development
 

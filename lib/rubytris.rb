@@ -40,7 +40,7 @@ module Rubytris
             loop do
                   sleep(0.2)
                   self.display_clear()
-                  puts "left: f, right: j, rotate: space, q: exit \e[25D"
+                  puts "left: f, right: j, fall: b, rotate: space, q: exit \e[25D"
                   puts "\e[25D#{field.point}\e[25D"
                   case cmd
                   when 'q' then
